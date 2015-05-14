@@ -29,7 +29,6 @@ dwsync.xml
 # Folders to ignore
 .hg
 .svn
-publish
 .idea
 target
 node

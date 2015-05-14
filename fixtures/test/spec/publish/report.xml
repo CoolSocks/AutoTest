@@ -1,0 +1,45 @@
+<testsuites name="Mocha Tests">
+<testsuite name="CQ5 Footer" tests="1" failures="0" skipped="0" timestamp="Mon, 21 Jul 2014 17:24:38 GMT" time="4.967">
+<testcase classname="CQ5 Footer" name="should have an appropriate title tag and URL" time="4.964"/>
+</testsuite>
+<testsuite name="CQ5 Footer footer" tests="35" failures="0" skipped="0" timestamp="Mon, 21 Jul 2014 17:24:43 GMT" time="2.345">
+<testcase classname="CQ5 Footer footer" name="should check for the renew membership link" time="0.185"/>
+<testcase classname="CQ5 Footer footer" name="should check for the My ACS label" time="0.066"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Contact ACS link" time="0.061"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Member Benefits label" time="0.064"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Insurance link" time="0.068"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Career Consulting link" time="0.075"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Professional Development link" time="0.067"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Webinars link" time="0.062"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Member Handbook link" time="0.059"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Publications link" time="0.062"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Engage label" time="0.064"/>
+<testcase classname="CQ5 Footer footer" name="should check for the ACS Network link" time="0.064"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Local Sections link" time="0.063"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Technical Divisions link" time="0.063"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Volunteer Opportunities link" time="0.064"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Donate link" time="0.073"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Emerging Science label" time="0.068"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Green Chemistry link" time="0.072"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Sustainability link" time="0.059"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Global Community label" time="0.059"/>
+<testcase classname="CQ5 Footer footer" name="should check for the International Activities link" time="0.066"/>
+<testcase classname="CQ5 Footer footer" name="should check for the ACS International Center link" time="0.054"/>
+<testcase classname="CQ5 Footer footer" name="should check for the International Chemistry Olympiad link" time="0.058"/>
+<testcase classname="CQ5 Footer footer" name="should check for the International Students in the USA link" time="0.059"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Journals link" time="0.057"/>
+<testcase classname="CQ5 Footer footer" name="should check for the ACS link" time="0.059"/>
+<testcase classname="CQ5 Footer footer" name="should check for the C&amp;EN link" time="0.058"/>
+<testcase classname="CQ5 Footer footer" name="should check for the CAS link" time="0.06"/>
+<testcase classname="CQ5 Footer footer" name="Terms of Use" time="0.064"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Security link" time="0.073"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Privacy link" time="0.057"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Site Map link" time="0.058"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Contact link" time="0.066"/>
+<testcase classname="CQ5 Footer footer" name="should check for the Help link" time="0.057"/>
+<testcase classname="CQ5 Footer footer" name="should check for link to the Top" time="0.062"/>
+</testsuite>
+<testsuite name="CQ5 Footer footer copyright" tests="1" failures="0" skipped="0" timestamp="Mon, 21 Jul 2014 17:24:45 GMT" time="1.064">
+<testcase classname="CQ5 Footer footer copyright" name="should have a copywrite that matches the current year" time="0.059"/>
+</testsuite>
+</testsuites>
