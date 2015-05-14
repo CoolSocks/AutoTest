@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-04-28T11:07:55.237-04:00"
+        cq:lastModifiedBy="hxg00"
+        cq:lastReplicated="{Date}2014-04-28T11:38:55.960-04:00"
+        cq:lastReplicatedBy="lst99"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/acs/templates/membersHandbook"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Special Member Programs and Resources"
+        jcr:uuid="03a31e02-66af-448a-b3c1-2c8551cd64e7"
+        sling:resourceType="acs/components/pages/membersHandbook"
+        articleLayout="1"
+        collapseFooter="o0"
+        hideInNav="true"
+        navTitle="Special Member Programs and Resources">
+        <image
+            jcr:lastModified="{Date}2014-01-23T11:46:06.729-05:00"
+            jcr:lastModifiedBy="syf99"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <articleContentElements
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <handbookitem_2
+                jcr:created="{Date}2014-01-03T16:25:05.427-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:58:00.355-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="My ACS Story"
+                articletitleLink="http://www.my.acs.org/"
+                description="My ACS"
+                key="My"
+                openInNewWindow="true"
+                rank="6"
+                text="&lt;p>The ways that ACS members connect with and benefit from their Society are as varied as the disciplines of chemistry that members investigate and push forward. We know you have an interesting story and we want to hear it! We’ve heard from members like you who have sent in stories about making life-long connections, advancing careers, discovering the latest in science, and sharing a passion for chemistry with the next generation. My ACS Story shares personal stories from members who tell why they belong and how they benefit from being a part of ACS. Visit &lt;a adhocenable=&quot;false&quot; href=&quot;http://www.my.acs.org/&quot; target=&quot;_blank&quot;>my.acs.org&lt;/a> today to read about your fellow members’ experiences and share your own ACS story!&lt;/p>&#xa;"
+                weight="3"/>
+            <handbookitem_3
+                jcr:created="{Date}2014-01-03T16:25:12.781-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:58:10.353-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS ChemWorx"
+                articletitleLink="https://pc.acschemworx.acs.org/platinum/LoginPage.jsp?home=chemworx&amp;code=1000#home."
+                description="ACS ChemWorx"
+                key="Cwx"
+                openInNewWindow="true"
+                rank="7"
+                text="&lt;p>ACS ChemWorx is a free, comprehensive research management and storage system that combines reference discovery and management, professional networking, group and task management, and manuscript preparation in a single interface, accessible from anywhere. Spend less time organizing and more time researching. Go to &lt;a adhocenable=&quot;false&quot; href=&quot;https://pc.acschemworx.acs.org/platinum/LoginPage.jsp?home=chemworx&amp;amp;code=1000#home.&quot; target=&quot;_blank&quot;>acschemworx.org&lt;/a> to learn more.&lt;/p>&#xa;"
+                weight="4"/>
+            <handbookitem_1
+                jcr:created="{Date}2014-01-03T16:24:55.244-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-03-07T14:12:47.487-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS International Center™"
+                articletitleLink="/content/acs/en/global/international-center"
+                description="ACS International Center™"
+                key="Ic"
+                openInNewWindow="true"
+                rank="10"
+                text="&lt;p>The ACS International Center™ is a new comprehensive resource for ACS members outside the U.S. Go to &lt;a adhocenable=&quot;false&quot; href=&quot;/content/acs/en/global/international-center.html&quot; target=&quot;_blank&quot;>www.acs.org/ic&lt;/a> to review information about international scholarships, exchange programs, internships, travel awards, webinars, and a host of other resources that can help you grow academically and professionally.&lt;/p>&#xa;"
+                weight="8"/>
+            <handbookitem
+                jcr:created="{Date}2014-01-03T16:24:39.162-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-28T11:07:55.235-04:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="Member-Get-A-Member Campaign"
+                articletitleLink="/content/acs/en/membership-and-networks/acs/getamember"
+                description="Member-Get-A-Member Campaign"
+                key="Mgm"
+                openInNewWindow="true"
+                rank="11"
+                text="&lt;p>Since 2005 the Member-Get-A-Member Campaign has been offering current ACS members the opportunity to receive a unique Periodic Table of the Elements blanket by recruiting a new ACS member.&amp;nbsp;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>You will earn one of these coveted, limited-edition blankets for each new paid member that you recruit, with no limit to the number of members you may recruit and blankets you can earn!&lt;/p>&#xa;"
+                weight="9"/>
+            <handbookitem_0
+                jcr:created="{Date}2014-01-03T16:24:47.970-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-03-07T14:13:04.696-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="Special Dues Membership Categories"
+                articletitleLink="/content/acs/en/membership-and-networks/acs/benefits/special-dues-categories-for-acs-members"
+                description="Special Dues Membership Categories"
+                key="Sp"
+                openInNewWindow="true"
+                rank="12"
+                text="&lt;p>Sometimes situations occur in our lives that make paying ACS membership dues difficult. ACS Special Dues Categories are intended to help members in a variety of difficult situations maintain their membership. These categories include: Unemployed Dues Waiver, National Service Dues Discount, Disabled Dues Waiver, Family Responsibilities Dues Discount, Student Discount, and more.&lt;/p>&#xa;"
+                weight="10"/>
+        </articleContentElements>
+        <articleTitle
+            jcr:lastModified="{Date}2014-01-06T14:38:12.652-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="&lt;h1>Special Member Programs &lt;br>&#xa;and Resources&lt;br>&#xa;&lt;/h1>&#xa;"
+            sling:resourceType="acs/components/general/acstitle"
+            textIsRich="true"/>
+    </jcr:content>
+</jcr:root>

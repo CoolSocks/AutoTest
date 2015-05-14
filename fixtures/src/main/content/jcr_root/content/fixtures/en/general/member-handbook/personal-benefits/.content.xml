@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-06-30T15:22:56.864-04:00"
+        cq:lastModifiedBy="jxf02"
+        cq:lastReplicated="{Date}2014-06-30T15:24:16.684-04:00"
+        cq:lastReplicatedBy="jxf02"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/acs/templates/membersHandbook"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Personal Benefits"
+        jcr:uuid="1d116c4b-e922-44ce-b8e1-f44f5bf0dd39"
+        sling:resourceType="acs/components/pages/membersHandbook"
+        articleLayout="1"
+        hideInNav="true"
+        navTitle="Personal Benefits">
+        <articleContentElements
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <handbookitem
+                jcr:created="{Date}2014-01-06T13:02:12.695-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:53:35.651-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Credit Card"
+                articletitleLink="/content/acs/en/membership-and-networks/acs/benefits/personal.html#P7_211"
+                description="ACS Credit Card"
+                key="Cc"
+                openInNewWindow="true"
+                rank="21"
+                text="&lt;p>Earn Cash Rewards with your own ACS-branded credit card through Bank of America.&lt;/p>&#xa;"
+                weight="18"/>
+            <handbookitem_0
+                jcr:created="{Date}2014-01-06T13:02:22.876-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-06-30T11:30:31.252-04:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="Betchart Expeditions"
+                articletitleLink="http://www.betchartexpeditions.com/acs"
+                description="Science Adventure Travel "
+                key="Tr"
+                openInNewWindow="true"
+                rank="22"
+                text="&lt;p>Travel the world with groups of like-minded travelers and scientific experts who share a love of learning and discovery. See all the unique worldwide itineraries planned for 2014 and beyond. Visit &lt;a adhocenable=&quot;false&quot; href=&quot;http://www.betchartexpeditions.com/acs&quot; target=&quot;_blank&quot;>www.betchartexpeditions.com/acs.&lt;/a>&lt;/p>&#xa;"
+                weight="19">
+                <cq:annotations jcr:primaryType="nt:unstructured">
+                    <only_change_removed_
+                        jcr:lastModified="{Date}2014-06-30T11:31:00.782-04:00"
+                        jcr:lastModifiedBy="hxg00"
+                        jcr:primaryType="nt:unstructured"
+                        text="only change: removed word &quot;travel&quot; from Tr tile."
+                        x="{Long}16"
+                        y="{Long}68"/>
+                </cq:annotations>
+            </handbookitem_0>
+            <handbookitem_2
+                jcr:created="{Date}2014-01-06T13:02:40.367-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:54:06.673-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Member Insurance"
+                articletitleLink="/content/acs/en/membership-and-networks/insurance"
+                description="ACS Member Insurance"
+                key="Mi"
+                openInNewWindow="true"
+                rank="23"
+                text="&lt;p>ACS Insurance offers quality insurance plans to ACS members and their families. Life and Health, Accidental Death &amp;amp; Dismemberment, Disability Income, Hospital Indemnity, Long-Term Care, Medicare Supplement, Medical Discount Cards, Prescription Drug Savings Cards, Pet Insurance, Auto, Homeowners and Renters, Professional Liability, Key Person, and Special Event Insurance. To learn more, visit &lt;a adhocenable=&quot;false&quot; href=&quot;/content/acs/en/membership-and-networks/insurance.html&quot; target=&quot;_blank&quot;>www.acs.org/insurance&lt;/a>.&lt;/p>&#xa;&lt;p>New ACS members may also be eligible for US$25,000 of basic Group Term Life Insurance and US$15,000 of Accidental Death &amp;amp; Dismemberment coverage for an entire year. Visit&amp;nbsp; &lt;a target=&quot;_blank&quot; href=&quot;http://www.acsplanadministrator.com/new-member-program&quot; adhocenable=&quot;false&quot;>www.acsnewmemberoffer.com&lt;/a> to learn more.&lt;/p>&#xa;"
+                weight="20"/>
+            <handbookitem_1
+                jcr:created="{Date}2014-01-06T13:02:31.765-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:54:23.886-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="Wyndham Hotel Discounts"
+                articletitleLink="http://www.endlessvacationrentals.com/acs"
+                description="Wyndham Hotel Discounts"
+                key="Wy"
+                openInNewWindow="true"
+                rank="32"
+                text="&lt;p>ACS members get the “Best Available Rate” at Wyndham brands ranging from the luxurious Wyndham Hotels and Resorts to the budget-friendly Days Inn, Travelodge, and others.&amp;nbsp; Call 1-877-670-7088 and use the discount code found on the back of your member card.&lt;/p>&#xa;"
+                weight="29"/>
+            <handbookitem_3
+                jcr:created="{Date}2014-01-06T13:02:48.559-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:54:40.277-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="Shipping Discounts with Federal Express"
+                articletitleLink="http://www.partnership.com/micro_site/index/65acs"
+                description="FedEx &quot;Partnership&quot; Discounts"
+                key="Fx"
+                openInNewWindow="true"
+                rank="33"
+                text="&lt;p>U.S.-based ACS members receive discounts of up to 26% on domestic and international envelope and small parcel shipments and up to 20% on printing and copying services at any FedEx Office. Discounts are also available for bulk and light freight transport.&lt;/p>&#xa;&lt;p>Call 1-800-599-2902 to enroll or go to &lt;a adhocenable=&quot;false&quot; href=&quot;http://www.partnership.com/micro_site/index/65acs&quot; target=&quot;_blank&quot;>www.partnership.com/65ACS&lt;/a>.&lt;/p>&#xa;"
+                weight="30"/>
+            <handbookitem_4
+                jcr:created="{Date}2014-01-06T13:03:00.843-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:54:55.231-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="Rental Car Discounts"
+                articletitleLink="/content/acs/en/membership-and-networks/acs/benefits/personal/auto-hotel-travel-information"
+                description="Rental Car Discounts"
+                key="Rt"
+                openInNewWindow="true"
+                rank="43"
+                text="&lt;p>ACS member discounts of 5 to 25% are available with AVIS, Budget, and Hertz worldwide. Simply use the ACS discount codes found on the back of your membership card.&lt;/p>&#xa;"
+                weight="40"/>
+        </articleContentElements>
+        <image
+            jcr:lastModified="{Date}2014-01-23T11:45:42.525-05:00"
+            jcr:lastModifiedBy="syf99"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <articleTitle
+            jcr:lastModified="{Date}2014-01-21T16:32:21.544-05:00"
+            jcr:lastModifiedBy="kqm99"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="&lt;h1>Personal Benefits&lt;/h1>&#xa;"
+            sling:resourceType="acs/components/general/acstitle"
+            textIsRich="true"/>
+        <articleContentAboveElements
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+    </jcr:content>
+</jcr:root>

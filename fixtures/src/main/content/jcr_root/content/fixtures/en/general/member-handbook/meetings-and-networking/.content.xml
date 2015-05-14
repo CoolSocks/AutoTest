@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-04-22T15:03:07.286-04:00"
+        cq:lastModifiedBy="hxg00"
+        cq:lastReplicated="{Date}2014-04-24T11:46:13.097-04:00"
+        cq:lastReplicatedBy="txt00"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/acs/templates/membersHandbook"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Meetings &amp; Networking"
+        jcr:uuid="c09f1c3d-53ab-41db-ace2-79e9f3fb8af4"
+        sling:resourceType="acs/components/pages/membersHandbook"
+        articleLayout="1"
+        hideInNav="true"
+        navTitle="Meetings &amp; Networking">
+        <articleContentElements
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <handbookitem_1
+                jcr:created="{Date}2014-01-03T10:22:46.617-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-10T11:31:24.705-04:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Network and Member Directory"
+                articletitleLink="https://communities.acs.org/welcome"
+                description="ACS Network "
+                key="Nt"
+                openInNewWindow="true"
+                rank="2"
+                text="&lt;p>The ACS Network is the world’s largest online scientific community, with more&amp;nbsp; than 270,000 users. It is an open social media platform as well as an online ACS member directory that is free to join. The ACS Network attracts leading&amp;nbsp; scientists and professionals from around the globe, who collaborate within a&amp;nbsp; trusted community of peers. As the role and demand of social media has expanded and heightened over the last five years, the ACS Network has also grown in popularity and participation, especially around special interest groups.&lt;/p>&#xa;&lt;p>The purpose of the ACS Network is to foster communities of interests, facilitate networking and collaboration and provide a dynamic and valuable exchange of resources and ideas within the world of chemistry. It is the ideal place for scientists to manage their careers, and learn and grow in their profession.&amp;nbsp; Wherever you may be in your career or education, there are countless ways to meet colleagues, engage on projects, join or start discussions, share content and opportunities, organize groups, plan events and activities, and much more!&lt;/p>&#xa;"
+                weight="2"/>
+            <handbookitem_0
+                jcr:created="{Date}2014-01-03T10:20:54.978-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:44:18.240-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Regional Meetings"
+                articletitleLink="/content/acs/en/meetings/regional"
+                description="Regional Meeting Discounts"
+                key="Rm"
+                openInNewWindow="true"
+                rank="8"
+                text="&lt;p>The American Chemical Society sponsors regional meetings throughout the U.S. that reflect the diverse professional interests in those geographic areas. Regional meetings generally feature 3 to 4 day technical programs where attendees can present papers, network with colleagues or attend workshops and special programming for high school teachers and undergraduates.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&lt;br>&#xa;Each regional meeting offers an exposition featuring both commercial and academic exhibitors. There are also a variety of awards banquets such as the Division of Chemical Education Regional Award for Excellence in High School Teaching, the E. Ann Nalley Regional Award for Volunteer Services, and the Stanley C. Israel Regional Award for Advancing Diversity in the Chemical Sciences. And, as an ACS member, you are eligible for discounted registration rates. Plan to attend the next regional meeting in your area and discover the excitement of networking with your ACS colleagues.&lt;/p>&#xa;"
+                weight="5"/>
+            <handbookitem_3
+                jcr:created="{Date}2014-01-03T10:25:14.306-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-22T15:03:07.283-04:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS LinkedIn Group Membership"
+                articletitleLink="http://www.linkedin.com/groups?gid=51209"
+                description="ACS LinkedIn Group "
+                key="Li"
+                openInNewWindow="true"
+                rank="14"
+                text="&lt;p>ACS maintains a variety of social media pages and groups, including a private, professional group on LinkedIn.&amp;nbsp; With more than 12,000 ACS members, this group will keep you updated on the latest movements and trends in the chemistry profession, as well as connect you with other ACS members. To join, please include your ACS member number with your request.&lt;br>&#xa;&lt;/p>&#xa;"
+                weight="11"/>
+            <handbookitem_4
+                jcr:created="{Date}2014-01-03T10:26:49.592-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:44:41.927-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Local Sections"
+                articletitleLink="/content/acs/en/membership-and-networks/ls"
+                description="Local Sections"
+                key="Ls"
+                openInNewWindow="true"
+                rank="24"
+                text="&lt;p>Local sections are the face of the ACS at the grassroots level.&amp;nbsp; There are 187 ACS Local Sections throughout the 50 U.S. states and Puerto Rico, offering plenty of opportunities to learn new skills, grow professionally, and contribute to your community’s understanding and appreciation of chemistry.&amp;nbsp; &lt;a adhocenable=&quot;false&quot; href=&quot;http://webapps.acs.org/lslookup/&quot; target=&quot;_blank&quot;>Find your local section&lt;/a>.&lt;br>&#xa;&lt;/p>&#xa;"
+                weight="21"/>
+            <handbookitem_5
+                jcr:created="{Date}2014-01-03T10:37:46.067-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-04-09T13:55:37.285-04:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="International Chemical Science Chapters (ICSCs)"
+                articletitleLink="/content/acs/en/global/international/chapters"
+                description="International Chemical Science Chapters "
+                key="Ic"
+                openInNewWindow="true"
+                rank="34"
+                text="&lt;p>Chemists outside the U.S. can tap into ACS efforts to advance chemistry around the world by&amp;nbsp; joining or establishing an ICSC. International chapters can help chemists connect with one another&amp;nbsp; in a geographic region or across the globe. There are currently chapters in Hong Kong, Hungary,&amp;nbsp; Saudi Arabia, Shanghai, Thailand, and Romania.&amp;nbsp; &lt;a target=&quot;_blank&quot; href=&quot;/content/acs/en/global/international.html&quot; adhocenable=&quot;false&quot;>www.acs.org/international&lt;/a>&lt;br>&#xa;&lt;/p>&#xa;"
+                weight="31"/>
+            <handbookitem_6
+                jcr:created="{Date}2014-01-03T10:52:21.974-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:42:09.814-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Technical Divisions"
+                articletitleLink="/content/acs/en/membership-and-networks/td"
+                description="ACS Technical Divisions"
+                key="Dv"
+                openInNewWindow="true"
+                rank="44"
+                text="&lt;p>Join any of the 32 Technical Divisions to keep pace with new developments in&lt;br>&#xa;your areas of specialization. First-time ACS members are entitled to a free&amp;nbsp; one-year membership in one ACS Technical Division. Visit &lt;a target=&quot;_blank&quot; href=&quot;/content/acs/en/membership-and-networks/td.html&quot; adhocenable=&quot;false&quot;>www.acs.org/divisions&lt;/a> to learn more.&lt;/p>&#xa;"
+                weight="41"/>
+        </articleContentElements>
+        <image
+            jcr:lastModified="{Date}2014-01-23T11:44:12.533-05:00"
+            jcr:lastModifiedBy="syf99"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <articleTitle
+            jcr:lastModified="{Date}2014-02-27T10:48:03.754-05:00"
+            jcr:lastModifiedBy="hxg00"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="&lt;h1>Meetings &amp;amp; Networking&lt;br>&#xa;&lt;/h1>&#xa;"
+            sling:resourceType="acs/components/general/acstitle"
+            textIsRich="true"/>
+        <articleContentAboveElements
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <handbookitem
+                jcr:created="{Date}2014-02-27T10:13:08.285-05:00"
+                jcr:createdBy="hxg00"
+                jcr:lastModified="{Date}2014-02-27T10:13:08.285-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS National Meetings"
+                articletitleLink="/content/acs/en/meetings"
+                description="National Meeting Discounts"
+                key="Nm"
+                openInNewWindow="true"
+                rank="1"
+                text="&lt;p>ACS national meetings give you the chance to share your research findings, explore solutions, and network with chemists, chemical engineers, allied professionals, students, and educators from around the world. Each five-day national meeting features symposia, poster sessions, expositions, ACS Career Fairs, short courses, workshops, social and networking events, and more. ACS members also qualify for discounted registration fees.&lt;/p>&#xa;"
+                weight="1"/>
+        </articleContentAboveElements>
+    </jcr:content>
+</jcr:root>

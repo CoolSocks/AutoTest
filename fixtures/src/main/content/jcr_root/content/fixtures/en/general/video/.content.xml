@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-18T13:14:27.589-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs/templates/acsArticle"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Video"
+        jcr:uuid="2d339dd9-d55c-4e68-8e88-2af216e2c06d"
+        sling:resourceType="acs/components/pages/acsArticle"
+        articleLayout="1"
+        collapseFooter="o1">
+        <articleContent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <video
+                jcr:created="{Date}2012-11-05T12:54:33.148-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-06T16:30:23.915-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/video"
+                align="Left"
+                border="Normal"
+                mp4url="http://public.wireframes-acs.com/sintel-1024-surround.mp4"
+                posterurl="http://content.bitsontherun.com/thumbs/q1fx20VZ-720.jpg"
+                round="Normal"
+                style="Normal"
+                title="Durian Open Movie Project"
+                vttFilename="C:\\fakepath\\sintel_en.vtt"
+                webvttfilename="C:\\fakepath\\sintel_en.vtt">
+                <caption.vtt/>
+            </video>
+            <video_0
+                jcr:created="{Date}2012-11-17T17:44:26.720-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-18T13:14:27.585-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/video"
+                align="Left"
+                bgcolor="454545"
+                border="Normal"
+                height="600"
+                mp4url="http://public.wireframes-acs.com/sintel-1024-surround.mp4"
+                round="Normal"
+                style="Normal"
+                theme="dark"
+                title="Durian Open Movie Project"
+                vttFilename="C:\\fakepath\\sintel_en.vtt"
+                webvttfilename="C:\\fakepath\\sintel_en.vtt"
+                width="600">
+                <caption.vtt/>
+            </video_0>
+        </articleContent>
+        <image
+            jcr:lastModified="{Date}2012-11-07T10:48:26.069-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

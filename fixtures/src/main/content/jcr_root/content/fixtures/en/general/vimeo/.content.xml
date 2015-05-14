@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-02-05T09:08:08.170-08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs/templates/acsArticle"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Vimeo"
+        sling:resourceType="acs/components/pages/acsArticle"
+        hideInNav="{Boolean}true">
+        <articleContent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <vimeoembed
+                jcr:created="{Date}2015-02-05T09:07:53.386-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-02-05T09:08:08.166-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/vimeoembed"
+                align="float-left"
+                border="Normal"
+                height="500"
+                round="Normal"
+                style="Normal"
+                vimeoRefNum="111690138"
+                width="700"/>
+        </articleContent>
+    </jcr:content>
+</jcr:root>

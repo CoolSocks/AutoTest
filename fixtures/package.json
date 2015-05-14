@@ -1,0 +1,33 @@
+{
+    "name": "fixtures",
+    "version": "0.0.0",
+    "description": "ACS.org FIXTURES NPM build",
+    "main": "gulpfile.js",
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "casperjs": "^1.1.0-beta3",
+        "gulp": "^3.8.10",
+        "gulp-download": "0.0.1",
+        "gulp-ignore": "^1.2.1",
+        "gulp-unzip": "^0.1.2",
+        "mocha": "~2.2.1",
+        "mocha-jenkins-reporter": "0.1.6",
+        "phantomcss": "^0.9.2",
+        "phantomjs": "^1.9.13",
+        "resemblejs": "^1.2.0",
+        "request": "^2.53.0",
+        "selenium-standalone": "^4.2.2",
+        "selenium-webdriver": "^2.45.0", 
+        "xunit-file": "~0.0.6"
+    },
+    "dependencies": {
+        "chai": "~2.1.2",
+        "chai-as-promised": "~4.3.0",
+        "colors": "~1.0.3",
+        "wd": "~0.3.11"
+    },
+    "scripts": {
+        "test": "mocha test/spec/publish/all-tests.js --reporter xunit-file"
+    }
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-17T12:56:24.156-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs/templates/acsArticle"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Audio"
+        jcr:uuid="0de75814-4a41-4ca8-8bc5-ef4078a0d9d6"
+        sling:resourceType="acs/components/pages/acsArticle"
+        articleLayout="1"
+        collapseFooter="o1">
+        <articleContent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <audio
+                jcr:created="{Date}2012-11-17T10:30:54.749-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-17T12:56:24.153-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/audio"
+                align="Left"
+                bgcolor="######"
+                border="Normal"
+                description="&lt;p>Test for dark theme, show poster with no poster url, filename is present.&lt;/p>&#xa;"
+                filename="Heat Seas"
+                mp3url="http://s3.amazonaws.com/acs_video/Heet_Seas_-_Stupid_Game.mp3"
+                round="Normal"
+                showposter="{Boolean}true"
+                style="Normal"
+                theme="dark"
+                title="The Wispy Hummers"
+                vttFilename="C:\\fakepath\\caption.vtt">
+                <caption.vtt/>
+            </audio>
+            <audio_1
+                jcr:created="{Date}2012-11-14T16:52:32.673-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-17T11:23:07.931-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/audio"
+                align="Left"
+                bgcolor="3F0800"
+                border="Normal"
+                description="&lt;p>Test for background color, has poter url, max width, max height, loop&lt;/p>&#xa;"
+                height="280"
+                loop="loop"
+                mp3url="http://public.wireframes-acs.com/The_Wispy_Hummers_-_14_-_My_Love.mp3"
+                posterurl="http://public.wireframes-acs.com/The_Wispy_Hummers.jpg"
+                round="Normal"
+                showposter="{Boolean}true"
+                style="Normal"
+                theme="light"
+                title="The Wispy Hummers"
+                vttFilename="C:\\fakepath\\caption.vtt"
+                width="600">
+                <caption.vtt/>
+            </audio_1>
+            <audio_0
+                jcr:created="{Date}2012-11-14T16:44:55.650-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-14T16:44:55.650-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/audio"/>
+        </articleContent>
+        <image
+            jcr:lastModified="{Date}2012-11-09T14:56:02.356-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

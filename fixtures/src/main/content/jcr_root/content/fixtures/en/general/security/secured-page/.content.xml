@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-02-05T08:52:32.316-08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs/templates/acsArticle"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Secured Page"
+        sling:resourceType="acs/components/pages/acsArticle"
+        articleLayout="2"
+        collapseFooter="o0"
+        hideInNav="true"
+        securedContent="true">
+        <image
+            jcr:lastModified="{Date}2015-02-05T08:52:32.309-08:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2012-11-27T14:58:36.757-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs/templates/acsArticle"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Carousel"
+        jcr:uuid="6813d17e-a760-4417-b89d-f7f43605d7da"
+        sling:resourceType="acs/components/pages/acsArticle"
+        articleLayout="1"
+        collapseFooter="o1">
+        <articleContent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <acscarousel
+                jcr:created="{Date}2012-11-18T16:29:03.190-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-27T14:58:36.755-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/acscarousel"
+                bgcolor="CCCCCC"
+                captioncolor="FFFFFF"
+                captionopacity="75"
+                height="300"
+                navmode="pills"
+                prevnextstyle="square"
+                rendermode="captioned">
+                <slides-1
+                    jcr:primaryType="nt:unstructured"
+                    bgcolor="######"
+                    image="/content/dam/geometrixx-outdoors/banners/adventure.jpg"
+                    title="Slide #1"
+                    titleLink="http://foo.com"/>
+                <slides-2
+                    jcr:primaryType="nt:unstructured"
+                    bgcolor="######"
+                    image="/content/dam/geometrixx-outdoors/banners/best-season.jpg"
+                    title="Slide #2"/>
+                <slides-3
+                    jcr:primaryType="nt:unstructured"
+                    bgcolor="######"
+                    image="/content/dam/geometrixx-outdoors/banners/cool-and-stylish.jpg"
+                    title="Slide #3"/>
+            </acscarousel>
+            <acscarousel_0
+                jcr:created="{Date}2012-11-18T16:29:08.872-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2012-11-18T16:29:08.872-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/acscarousel"/>
+        </articleContent>
+        <image
+            jcr:lastModified="{Date}2012-11-18T16:28:34.505-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

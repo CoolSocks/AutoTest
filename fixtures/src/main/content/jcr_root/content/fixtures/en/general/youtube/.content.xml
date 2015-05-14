@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-02-05T09:09:00.709-08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs/templates/acsArticle"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="YouTube"
+        sling:resourceType="acs/components/pages/acsArticle"
+        hideInNav="{Boolean}true">
+        <articleContent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <youtubeembed
+                jcr:created="{Date}2015-02-05T09:08:43.225-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-02-05T09:09:00.706-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/youtubeembed"
+                align="Left"
+                border="bordered"
+                color="box-light-gradient"
+                nameRef="rRqKYXcL-2U"
+                round="rounded"
+                ruleHorizontal="border-top-bottom"
+                style="Normal"/>
+        </articleContent>
+    </jcr:content>
+</jcr:root>

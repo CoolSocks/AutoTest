@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2014-04-10T11:34:46.823-04:00"
+        cq:lastModifiedBy="hxg00"
+        cq:lastReplicated="{Date}2014-04-28T11:35:11.669-04:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/acs/templates/membersHandbook"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Scientific Resources"
+        jcr:uuid="7dcc3bc2-a371-4d2b-be4d-8be2d3b076d2"
+        sling:resourceType="acs/components/pages/membersHandbook"
+        articleLayout="1"
+        hideInNav="true"
+        navTitle="Scientific Resources">
+        <articleContentElements
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <handbookitem
+                jcr:created="{Date}2014-01-03T15:53:18.661-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:36:52.909-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="Chemical &amp; Engineering News (C&amp;EN)"
+                articletitleLink="http://cen.acs.org/index.html"
+                description="C&amp;EN and C&amp;EN Archives"
+                key="Cen"
+                openInNewWindow="true"
+                rank="25"
+                text="&lt;p>Read C&amp;amp;EN each week for in-depth analysis and reporting on the latest developments in science and technology, business and industry, government, education, and employment trends. C&amp;amp;EN covers the chemical enterprise and related sciences each week in print and digital formats, and through regular live C&amp;amp;EN Webinars.&lt;/p>&#xa;&lt;p>C&amp;amp;EN Mobile is available for both Android and Apple devices. The C&amp;amp;EN Mobile app is free, and ACS members can download entire issues of C&amp;amp;EN as well as access Latest News, CENtral Science, the C&amp;amp;EN YouTube Channel, and chemistry job postings. Please visit &lt;a target=&quot;_blank&quot; href=&quot;http://cen.acs.org/index.html&quot; adhocenable=&quot;false&quot;>cen.acs.org&lt;/a>.&lt;/p>&#xa;"
+                weight="22"/>
+            <handbookitem_0
+                jcr:created="{Date}2014-01-03T16:17:33.875-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:37:04.450-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Member Universal Access"
+                articletitleLink="/content/acs/en/membership-and-networks/acs/benefits/professional/publications-benefits.html#universalaccess"
+                description="ACS Member Universal Access"
+                key="Ua"
+                openInNewWindow="true"
+                rank="26"
+                text="&lt;p>Online access to any 25 articles from any ACS Journal, &lt;i>ACS Symposium Series&lt;/i> e-Books, or &lt;i>C&amp;amp;EN Archives&lt;/i> is included with your annual membership.&lt;/p>&#xa;"
+                weight="23"/>
+            <handbookitem_1
+                jcr:created="{Date}2014-01-03T16:17:45.770-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:37:24.038-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Member Articles on Command"
+                articletitleLink="/content/acs/en/membership-and-networks/acs/benefits/professional/publications-benefits.html#P21_928"
+                description="ACS Member Articles on Command"
+                key="Ac"
+                openInNewWindow="true"
+                rank="35"
+                text="&lt;p>Single articles are available at a significant discount for ACS members only.&lt;/p>&#xa;&lt;p>• US$12 for journal articles and &lt;i>ACS Symposium Series&lt;/i> e-Book chapters&lt;br>&#xa;• US$5 for &lt;i>C&amp;amp;EN Archives&lt;/i>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;"
+                weight="32"/>
+            <handbookitem_2
+                jcr:created="{Date}2014-01-03T16:18:01.216-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:37:42.235-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Member E-Passport"
+                articletitleLink="/content/acs/en/membership-and-networks/acs/benefits/professional/publications-benefits.html#epassport"
+                description="ACS Member E-Passport"
+                key="Ep"
+                openInNewWindow="true"
+                rank="36"
+                text="&lt;p>Access the entire suite of ACS Journals, &lt;i>ACS Symposium Series&lt;/i> e-Books and &lt;i>C&amp;amp;EN Archives&lt;/i> at two fixed price levels: US$500 for 250 articles and US$1,000 for 500 articles. There is a maximum limit of 500 articles per membership term.&lt;/p>&#xa;"
+                weight="33"/>
+            <handbookitem_3
+                jcr:created="{Date}2014-01-03T16:18:13.516-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:38:06.569-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Member E-Subscriptions"
+                articletitleLink="/content/acs/en/membership-and-networks/acs/benefits/professional/publications-benefits.html#esubs"
+                description="ACS Publications E-Subscriptions"
+                key="Pb"
+                openInNewWindow="true"
+                rank="45"
+                text="&lt;p>E-Subscriptions are available at a uniform price of US$95 per year for ACS Journal and Archive E-subscriptions. Members have access to 250 articles per journal, per subscription term and may subscribe to a total of five (5) E-Subscriptions.&amp;nbsp;&amp;nbsp;&lt;br>&#xa;&lt;/p>&#xa;"
+                weight="42"/>
+            <handbookitem_4
+                jcr:created="{Date}2014-01-03T16:18:25.800-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2014-02-28T13:38:25.378-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="SciFinder®"
+                articletitleLink="https://www.cas.org/products/scifinder"
+                description="SciFinder® Access"
+                key="Sf"
+                openInNewWindow="true"
+                rank="46"
+                text="&lt;p>Access the world’s largest and most reliable chemistry and science-related databases, with a single interface. SciFinder is a research discovery application that provides integrated access when searching for chemical information: substances, reactions, references from patents, journals, chemical suppliers, web sources, books, conferences, and more! ACS members are eligible for 25 complimentary SciFinder activities for personal use per membership term. To learn more, visit &lt;a adhocenable=&quot;false&quot; href=&quot;https://www.cas.org/products/scifinder&quot; target=&quot;_blank&quot;>www.cas.org/scifinder&lt;/a>.&lt;/p>&#xa;"
+                weight="43"/>
+            <handbookitem_5
+                jcr:created="{Date}2014-02-28T13:35:10.789-05:00"
+                jcr:createdBy="hxg00"
+                jcr:lastModified="{Date}2014-04-10T11:34:46.821-04:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Green Chemistry Institute (ACS GCI)"
+                articletitleLink="http://www.acs.org/content/acs/en/greenchemistry.html"
+                description="ACS Green Chemistry Institute"
+                key="Gci"
+                openInNewWindow="true"
+                rank="47"
+                text="&lt;p>The ACS Green Chemistry Institute&lt;sup>®&lt;/sup> (ACS GCI) provides members with the resources, training, and development opportunities to reimagine chemistry and engineering for a brighter, more sustainable future. Based on a set of sustainable principles, green chemistry spurs innovations in the design, development and implementation of chemical products and processes that directly benefit businesses, people, and the planet.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&lt;b>Collaboration and Education&lt;/b>&lt;br>&#xa;Each year ACS GCI presents the Green Chemistry &amp;amp; Engineering Conference, which brings together academia, government, and industry for in-depth presentations. This includes a full-day student workshop, a green business plan competition, and a careers workshop in partnership with ACS Professional Advancement.&lt;br>&#xa;&lt;/p>&#xa;&lt;p>For members at all levels, ACS GCI offers a variety of resources, awards, webcasts and special programs to improve the understanding and applications of green chemistry principles, alternatives, and practices.&lt;/p>&#xa;&lt;p>For more details on ACS GCI, please visit &lt;a target=&quot;_blank&quot; href=&quot;http://www.acs.org/content/acs/en/greenchemistry.html&quot; adhocenable=&quot;false&quot; title=&quot;ACS Green Chemistry Institute (ACS GCI)&quot;>www.acs.org/greenchemistry&lt;/a>.&lt;/p>&#xa;"
+                weight="44"/>
+        </articleContentElements>
+        <image
+            jcr:lastModified="{Date}2014-01-23T11:44:34.382-05:00"
+            jcr:lastModifiedBy="syf99"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+        <articleTitle
+            jcr:lastModified="{Date}2014-01-06T14:36:20.072-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="&lt;h1>Scientific Resources&lt;/h1>&#xa;&lt;p>&lt;/p>&#xa;"
+            sling:resourceType="acs/components/general/acstitle"
+            textIsRich="true"/>
+        <articleContentAboveElements
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <handbookitem_0
+                jcr:created="{Date}2014-03-11T15:24:03.809-04:00"
+                jcr:createdBy="hxg00"
+                jcr:lastModified="{Date}2014-03-11T15:27:48.285-04:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Presentations on Demand"
+                articletitleLink="http://presentations.acs.org/common/default.aspx"
+                description="ACS Presentations on Demand"
+                key="Pod"
+                openInNewWindow="true"
+                rank="9"
+                text="&lt;p>ACS places great value on new and proven scientific knowledge and strives to increase member access to that knowledge. ACS also understands that not every member can attend every national meeting. While no amount of technology can replace the many benefits of attending ACS national meetings, ACS&amp;nbsp; Presentations on Demand seeks to share with all ACS members some of the important technical and professional information that is delivered at each meeting.&lt;/p>&#xa;&lt;p>Representing programming from ACS Technical Divisions, ACS committees, and thematic events, ACS Presentations on Demand features a dynamic viewing platform, a searchable abstract index, and is compatible with mobile devices so members can view recordings anytime, anywhere. The recordings feature PowerPoint slides synched with audio, allowing the user to jump directly to slides of particular interest. Log in with your ACS ID at &lt;a href=&quot;http://presentations.acs.org/common/default.aspx&quot; target=&quot;_blank&quot;>www.presentations.acs.org&lt;/a>.&lt;/p>&#xa;"
+                weight="6"/>
+            <handbookitem
+                jcr:created="{Date}2014-02-28T13:33:57.275-05:00"
+                jcr:createdBy="hxg00"
+                jcr:lastModified="{Date}2014-02-28T16:06:35.818-05:00"
+                jcr:lastModifiedBy="hxg00"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/membershandbook/handbookitem"
+                articletitle="ACS Open Access"
+                articletitleLink="http://acsopenaccess.org/"
+                description="ACS Open Access"
+                key="Oa"
+                openInNewWindow="true"
+                rank="15"
+                text="&lt;p>ACS Open Access is a program that’s designed to assist authors in meeting evolving requirements from their research funders and institutions.&lt;br>&#xa;&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;b>ACS Central Science&lt;/b>&lt;br>&#xa;Led by a renowned scientist and international editorial board, ACS Central Science is a highly selective peer-reviewed journal that will publish exceptional multidisciplinary papers across the chemical sciences.&lt;/li>&#xa;&lt;li>&lt;b>ACS Editors’ Choice&lt;/b>&lt;br>&#xa;Based on recommendations from ACS journal editors around the world, a panel of ACS editors will select and feature one article daily that exemplifies the Society’s commitment to improving people’s lives through the transforming power of chemistry. These articles will remain open for all to access and read.&lt;/li>&#xa;&lt;li>&lt;b>ACS Author Rewards&lt;/b>&lt;br>&#xa;ACS will sponsor a direct-to-author open access stimulus program by rewarding each Corresponding Author of every article published that year with publishing credits representing a total value of $1,500 per publication. These credits can be used to fund any ACS open access publishing option of the author’s choosing within the next three years.&lt;/li>&#xa;&lt;li>&lt;b>ACS AuthorChoice&lt;/b>&lt;br>&#xa;Since 2006, ACS has offered the ACS Author Choice option for authors to license immediate open availability of their published articles. The program is being expanded to offer authors a wider range of options, such as Creative Commons licenses and provisions for embargoed open access, coupled with Certified Article Deposit programs. One-time fees will be as low as $750 for ACS members at subscribing institutions.&lt;br>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>Please visit &lt;a title=&quot;ACS Open Access&quot; adhocenable=&quot;false&quot; href=&quot;http://acsopenaccess.org/&quot; target=&quot;_blank&quot;>www.acsopenaccess.org&lt;/a> for more details and updates to the program.&lt;/p>&#xa;"
+                weight="12"/>
+        </articleContentAboveElements>
+    </jcr:content>
+</jcr:root>

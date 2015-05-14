@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2013-05-28T14:09:57.313-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs/templates/acsArticle"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Media Embed"
+        jcr:uuid="cdbcd4d3-ec0a-4a7b-bb11-f9ecd91f1758"
+        sling:resourceType="acs/components/pages/acsArticle"
+        articleLayout="1"
+        collapseFooter="o1">
+        <articleContent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <text
+                jcr:created="{Date}2013-04-09T14:27:50.890-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-05-28T14:09:57.311-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/text"
+                border="Normal"
+                round="Normal"
+                style="Normal"
+                text="&lt;ul>&#xa;&lt;li>&lt;a href=&quot;http://web.2.c2.audiovideoweb.com/il80web20030/ACS-Leadership-Institute/Leading-Your-Local-Section.mp4&quot;>Leading Your Local Section MP4&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a target=&quot;_top&quot; href=&quot;http://web.2.c2.audiovideoweb.com/va92web25028/IYC2011/LS_Activities/Cheryl_Frech-Millie_Mole.flv&quot;>Cheryl Frech&lt;br>&#xa; Univ. of Central Oklahoma&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a target=&quot;_top&quot; href=&quot;http://web.2.c2.audiovideoweb.com/va92web25028/IYC2011/LS_Activities/Cheryl_Frech-PR_Committee.flv&quot;>Cheryl Frech&lt;br>&#xa; ACS Committee on Public Relations &amp;amp; Communication&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a target=&quot;_top&quot; href=&quot;http://web.2.c2.audiovideoweb.com/va92web25028/IYC2011/LS_Activities/Daniel_Brown.flv&quot;>Daniel Brown&lt;br>&#xa; St. Joseph Valley Local Section&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a target=&quot;_top&quot; href=&quot;http://web.2.c2.audiovideoweb.com/va92web25028/IYC2011/LS_Activities/Don_Hicks.flv&quot;>Don Hicks&lt;br>&#xa; Georgia Local Section&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a target=&quot;_top&quot; href=&quot;http://web.2.c2.audiovideoweb.com/va92web25028/IYC2011/LS_Activities/Grover_Miller.flv&quot;>Grover Miller&lt;br>&#xa; Central Arkansas Local Section&lt;/a>&lt;/li>&#xa;&lt;/ul>&#xa;"
+                textIsRich="true"/>
+            <text_0
+                jcr:created="{Date}2013-05-28T13:42:00.136-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-05-28T14:00:52.232-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="acs/components/general/text"
+                border="Normal"
+                round="Normal"
+                style="Normal"
+                text="&lt;p>&lt;a href=&quot;http://web.2.c2.audiovideoweb.com/il80web20030/ACS-Leadership-Institute/Leading-Your-Local-Section.mp4&quot;>Leading Your Local Section MP4&lt;/a>&lt;/p>&#xa;&lt;p>Example of an MP4 video&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </articleContent>
+        <image
+            jcr:lastModified="{Date}2013-04-09T14:35:03.797-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

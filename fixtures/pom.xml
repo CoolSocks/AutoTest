@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>parent</artifactId>
+		<groupId>org.acs.cq</groupId>
+		<version>1.0</version>
+		<relativePath>../parent</relativePath>
+	</parent>
+	<artifactId>fixtures</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>ACS.org CQ5 --&gt; PARENT --&gt; FIXTURES</name>
+	<description>ACS.org CQ5 FIXTURES</description>
+	<properties></properties>
+	<dependencies></dependencies>
+	<build>
+		<resources>
+			<!-- filter meta information to get properties into the files -->
+			<resource>
+				<targetPath>META-INF</targetPath>
+				<filtering>true</filtering>
+				<directory>${basedir}/src/main/content/META-INF</directory>
+			</resource>
+			<!-- exclude .vlt control files and tests -->
+			<resource>
+				<targetPath>jcr_root</targetPath>
+				<directory>${basedir}/src/main/content/jcr_root</directory>
+				<excludes>
+					<exclude>**/.vlt</exclude>
+					<exclude>**/.vltignore</exclude>
+					<exclude>**/.DS_Store</exclude>
+					<exclude>**/.gitignore</exclude>
+				</excludes>
+			</resource>
+		</resources>
+	</build>
+	<profiles>
+		<profile>
+			<id>4502</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>com.sixdimensions.wcm.cq</groupId>
+						<artifactId>cq-deploy-plugin</artifactId>
+						<version>0.0.4</version>
+						<executions>
+							<execution>
+								<id>install-package-author</id>
+								<goals>
+									<goal>install-package</goal>
+								</goals>
+								<configuration>
+									<deleteFirst>true</deleteFirst>
+									<uploadOnly>false</uploadOnly>
+									<errorOnFailure>true</errorOnFailure>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+			<properties>
+				<web.buildNumber>${project.version}</web.buildNumber>
+			</properties>
+		</profile>
+	</profiles>
+	<scm>
+		<url>ssh://git@developer.acs.org:7999/ACS/cq5.git/fixtures</url>
+		<developerConnection>https://developer.acs.org/stash/scm/acs/cq5.git/fixtures</developerConnection>
+	</scm>
+</project>

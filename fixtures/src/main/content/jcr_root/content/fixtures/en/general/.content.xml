@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <protected-content/>
+    <mediaembed/>
+    <jcr:content
+        cq:lastModified="{Date}2012-11-07T10:48:03.335-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/acs/templates/acsArticle"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="General"
+        jcr:uuid="3f36bda7-c3b0-4757-90ad-09e7ec29f356"
+        sling:resourceType="acs/components/pages/acsArticle"
+        articleLayout="1"
+        collapseFooter="o1"
+        hideBreadcrumb="true">
+        <articleContent
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+        <image
+            jcr:lastModified="{Date}2012-11-07T10:48:03.333-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+    <video/>
+    <audio/>
+    <carsousel/>
+    <discussions/>
+    <sharebar/>
+    <security/>
+    <rss/>
+    <code-embed/>
+    <vimeo/>
+    <youtube/>
+    <member-handbook/>
+</jcr:root>

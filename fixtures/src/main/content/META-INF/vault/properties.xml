@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>FileVault Package Properties</comment>
+	<entry key="description">&lt;ul&gt;&lt;li&gt;Bamboo Build Number: BUILD_NUMBER&lt;/li&gt;&lt;li&gt;Git Commit: PROJECT_VERSION&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;FIXTURES Code Deployment .  Scheduled and originating from Bamboo, Build Number #BUILD_NUMBER. Git commit (SHA) PROJECT_VERSION.&lt;/p&gt;</entry>
+</properties>
