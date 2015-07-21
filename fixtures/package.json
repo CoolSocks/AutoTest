@@ -25,6 +25,7 @@
         "chai": "~2.1.2",
         "chai-as-promised": "~4.3.0",
         "colors": "~1.0.3",
+        "npmlog": "*",
         "wd": "~0.3.11"
     },
     "scripts": {
