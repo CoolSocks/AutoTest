@@ -1,4 +1,4 @@
-eports.browser1='chrome';
+exports.browser1='chrome';
 exports.sauce1=true;
 exports.version1='30';
 exports.platform1='Windows 7';
