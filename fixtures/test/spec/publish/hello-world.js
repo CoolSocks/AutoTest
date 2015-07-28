@@ -88,7 +88,7 @@ describe('Hello World', function(){
     browser
       .init(desired)
       .maximize()
-      .get(config.domain_author + '/content/acs/en.html')
+      .get(config.domain_publish + '/content/acs/en.html')
       .fin(function(){
         done();
       });
