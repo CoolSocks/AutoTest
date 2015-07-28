@@ -1,5 +1,5 @@
 exports.browser1='chrome';
-exports.sauce1=false;
+exports.sauce1=true;
 exports.version1='30';
 exports.platform1='Windows 7';
 exports.portnum1=4444;
