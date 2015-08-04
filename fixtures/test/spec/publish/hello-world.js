@@ -88,7 +88,7 @@ describe('Hello World', function(){
     browser
       .init(desired)
       .maximize()
-      .get(config.bamboodomain + '/content/acs/en.html')
+      .get(config.domain + '/content/acs/en.html')
       .fin(function(){
         done();
       });
@@ -131,7 +131,7 @@ describe('Hello World', function(){
     setTimeout(delay,waitPageTimeout);
 
     function delay(){
-      browser.get(config.bamboodomain + '/content/acs/en/cute-puppies/protected-page.html')
+      browser.get(config.domain + '/content/acs/en/cute-puppies/protected-page.html')
       .elementById('protectContentLightBox')
       .should.not.be.ok
       .notify(done);
