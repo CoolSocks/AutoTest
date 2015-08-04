@@ -88,7 +88,7 @@ describe('Hello World', function(){
     browser
       .init(desired)
       .maximize()
-      .get(config.domain_publish + '/content/acs/en.html')
+      .get(config.bamboodomain + '/content/acs/en.html')
       .fin(function(){
         done();
       });
@@ -123,6 +123,17 @@ describe('Hello World', function(){
       .should.eventually.include('/content/acs/en.html')
       .title()
       .should.become('American Chemical Society')
+      .notify(done);
+    }
+  });
+
+  it("Should have Protected Content modal dialog box", function (done) {
+    setTimeout(delay,waitPageTimeout);
+
+    function delay(){
+      browser.get(config.bamboodomain + '/content/acs/en/cute-puppies/protected-page.html')
+      .elementById('protectContentLightBox')
+      .should.not.be.ok
       .notify(done);
     }
   });
