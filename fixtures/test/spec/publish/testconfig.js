@@ -3,7 +3,7 @@ exports.sauce1=true;
 exports.version1='30';
 exports.platform1='Windows 7';
 exports.portnum1=4444;
-exports.bamboodomain='${bamboo.cqAuthorHost};
+exports.bamboodomain='${bamboo.cqAuthorHost}';
 if((!exports.bamboodomain || !exports.bamboodomain.length)){
   exports.domain='http://cmspubdev.acs.org';
 }else{
