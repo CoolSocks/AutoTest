@@ -1,5 +1,6 @@
 /* jshint evil: true */
 var config = require("./testconfig.js");
+console.log("domain: " + config.domain);
 
 var colors = require("colors");
 var chai = require("chai");
