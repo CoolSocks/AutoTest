@@ -127,15 +127,4 @@ describe('Hello World', function(){
     }
   });
 
-  it("Should have Protected Content modal dialog box", function (done) {
-    setTimeout(delay,waitPageTimeout);
-
-    function delay(){
-      browser.get(config.domain + '/content/acs/en/cute-puppies/protected-page.html')
-      .elementById('protectContentLightBox')
-      .should.not.be.ok
-      .notify(done);
-    }
-  });
-
 });
