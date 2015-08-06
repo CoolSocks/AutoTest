@@ -1,6 +1,7 @@
 /* jshint evil: true */
 var config = require("./testconfig.js");
-console.log("domain: " + config.domain);
+console.log("domain: " + process.env.BAMBOO_CQAUTHORHOST);
+console.log("domain0: " + process.env.BAMBOO_CQ_AUTHOR_HOST);
 
 var colors = require("colors");
 var chai = require("chai");
